@@ -10,5 +10,5 @@ const server = http.createServer((req, resp)=> {
 })
 
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`)
+  console.log(`Server running at http://${hostname}:${port}/music_streming/index.js`)
 })

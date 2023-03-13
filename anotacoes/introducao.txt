@@ -1,0 +1,24 @@
+Oq é node?
+    É um interpretador Js que não depende do navegador -> totalmente desvinculado do navegador.
+
+Bases
+    -> V8 -> Motor do google que entende o Js
+    -> Libuv -> Deu caracteristicas de backend pro node
+
+Vantagens 
+    -> Muito leve
+    -> Pouco uso de memória ram
+    -> Melhor aproveitamento da CPU
+    -> Tem um dos melhores ecossistemas de bibliotecas, modulos e plugins do mundo -> NPM
+    -> Suporta um imenso número de requisições
+
+Empresas que usam
+    -> ebay
+    -> paypal
+    -> uber
+    -> netflix -> Ela é feita em Groove uma linguagem Java -> Estão migrando
+    -> microsoft
+
+Outros editores de texto
+    -> Atom
+    -> Sublime text -> Mais leve de todos
