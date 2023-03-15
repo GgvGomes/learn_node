@@ -1,5 +1,11 @@
 const express = require('express');
 const app = express();
+const handlebars = require('express-handlebars');
+
+// HandleBars
+app.engine('handlebars', handlebars({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
+
 
 // Path: express_server\server.js
 
@@ -24,3 +30,5 @@ app.listen(3000, ()=> {
     // function de callback (sempre q acontece algo ela é chamada)
     console.log("Servidor rodando");
 })
+
+// ==========================================
