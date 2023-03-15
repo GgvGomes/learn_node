@@ -1,0 +1,11 @@
+<h1>Lista dos dados:</h1>
+
+{{!-- pra cada postagem retorna algo --}}
+{{#each posts}}
+    {{!-- <p>{{this.id}} - {{this.titulo}} - {{this.conteudo}}</p> --}}
+    <h1>{{titulo}}</h1>
+    <p>{{conteudo}}</p>
+
+    <a href="/deletar/{{id}}"><button>Deletar</button></a>
+    <hr>
+{{/each}}
